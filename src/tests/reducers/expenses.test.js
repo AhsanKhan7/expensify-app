@@ -64,3 +64,12 @@ test('should  not edit expense if not found', () => {
     const state = ExpensesReducers(expenses, action)
     expect(state).toEqual(expenses)
 })
+
+test('Should set expense', () => {
+    const action = {
+        type: 'SET-EXPENSES',
+        expenses: [expenses[1]]
+    }
+    const state = ExpensesReducers(expenses, action)
+    expect(state).toEqual([expenses[1]])
+})
