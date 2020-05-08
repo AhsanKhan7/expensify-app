@@ -7,8 +7,7 @@ exports[`should header run 1`] = `
   </h1>
   <NavLink
     activeClassName="is-active"
-    exact={true}
-    to="/"
+    to="/dashboard"
   >
     Dashboard
   </NavLink>
@@ -17,12 +16,6 @@ exports[`should header run 1`] = `
     to="/Add"
   >
     Add-Expence
-  </NavLink>
-  <NavLink
-    activeClassName="is-active"
-    to="/help"
-  >
-    Help
   </NavLink>
   <button
     onClick={[Function]}
