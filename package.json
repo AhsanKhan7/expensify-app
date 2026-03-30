@@ -42,7 +42,7 @@
     "style-loader": "4.0.0",
     "uuid": "^13.0.0",
     "validator": "13.15.23",
-    "webpack": "5.103.0"
+    "webpack": "5.105.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.28.3",
